@@ -3,9 +3,23 @@
 //Jalapa, Jalapa.
 
 #include <iostream>
+#include <fstream> 
+#include <cstdio>
 
 using namespace std;
+	struct estudiante {
+		
+	int carnet;
+ 	char nombre[15];	
+	int edad;
+	char carrera[20]; };
+		
+	struct index{
+		
+	int carnet;
+ 	int posicion;	};
+int main(){		
 
-int main(){
-
-}
+int opcion, bus;			
+estudiante alumno, auxi;	
+index indice, aux;
